@@ -1,2 +1,3 @@
 @ECHO off
-git push
+git status -v 
+pause
