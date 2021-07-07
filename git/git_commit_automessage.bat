@@ -8,5 +8,6 @@ ECHO %$message%
 SET "$autocommitmsg=%$message% %$datetime%"
 ECHO The auto commit mesage is
 ECHO %$autocommitmsg%
-git commit --message=%$autocommitmsg%
+git commit -v --message=%$autocommitmsg%
+pause
 

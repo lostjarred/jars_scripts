@@ -1,2 +1,3 @@
 @ECHO off
-git add .
+git add . -v
+pause

@@ -1,2 +1,3 @@
 @ECHO off
-git commit
+git commit -v
+pause
